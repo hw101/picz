@@ -1,8 +1,12 @@
+ion-header
+  ion-navbar
+    ion-title Log in
+
 ion-content
   ion-list
     ion-item
-      ion-label Email
-      ion-input(type="text", [(ngModel)]="user.email")
+      ion-label User name
+      ion-input(type="text", [(ngModel)]="user.username")
     ion-item
       ion-label Password
       ion-input(type="password", [(ngModel)]="user.password")

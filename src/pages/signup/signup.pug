@@ -1,9 +1,16 @@
+ion-header
+  ion-navbar
+    ion-title Sign up
+
 ion-content
   ion-list
     ion-item
-      ion-label Email
-      ion-input(type="text", [(ngModel)]="user.email")
+      ion-label User name *
+      ion-input(type="text", [(ngModel)]="user.username")
     ion-item
-      ion-label Password
+      ion-label Email *
+      ion-input(type="email", [(ngModel)]="user.email")
+    ion-item
+      ion-label Password *
       ion-input(type="password", [(ngModel)]="user.password")
     button(ion-button, (click)="signup()") Sign up
