@@ -1,0 +1,5 @@
+{
+  "CORE_URL": "http://localhost:3000",
+  "AUTH_TOKEN_NAME": "picz-token",
+  "URL_PATH": "api"
+}
